@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "Volt Betta Manager",
+    "slug": "volt-betta-manager",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.anonymous.voltbettamanager"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.anonymous.voltbettamanager"
+    },
+    "platforms": [
+      "android",
+      "ios"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "26d3ba9c-87e0-48cf-b97f-a1f38289dbd3"
+      }
+    }
+  }
+}

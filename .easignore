@@ -1,0 +1,10 @@
+# Ignore any system folders or unrelated paths
+**/AppData/
+**/.vscode/
+**/.DS_Store
+**/node_modules/
+**/windows/
+**/AppData/Local/AMD/**
+**/AppData/Local/NVIDIA/**
+**/AppData/Local/Temp/**
+node_modules/**
